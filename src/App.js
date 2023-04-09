@@ -117,7 +117,7 @@ function App() {
        
        
         <div class="navbar">
-          <strong>Gallery</strong>
+          <strong><a href="galleryutkarsh.netlify.app">Gallery</a></strong>
           <a href="https://utkarshanand15.github.io/utkarshanand/">Home</a>
           <a href="https://utkarshanand15.github.io/utkarshanand/about.html">About Me</a>
           <a href="https://utkarshanand15.github.io/utkarshanand/about.html">My work</a>
