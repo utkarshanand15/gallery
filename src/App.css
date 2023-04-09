@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+ /* background-color: black;*/
+  background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+* {
+  margin: 0;
+}
+.navbar{
+  display: inline;
+  position: absolute;
+  top:10px;
+  left: 100px;
+  
+}
+
+.navbar a{
+  display: inline;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #3e9d3a;
+  text-align: center;
+  
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+  
+  left: 300px;
+  
+}
+
+.navbar a:hover{
+  background-color: #e7411c;
+  
+  color: black;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: rgb(30, 174, 210);
+}
+strong{
+  color: #d73f08;
+  font-weight: 1000;
+  font-size: 30px;
+  border: #18b4c9;
+  font-style: italic;
+}
+span{
+	margin: 0;
+	padding: 0;
+  color:black;
+	border:#891867;
+	font-size: 25%;
+	font: inherit;
+  
+	
+}
+
+/* Footer */
+
+#footer .copyright {
+  font-size: 0.8em;
+  list-style: none;
+  padding-left: 0;
+}
+
+  #footer .copyright li {
+    border-left: solid 1px black;
+    color:black;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+
+    #footer .copyright li:first-child {
+      border-left: 0;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+@media screen and (max-width: 480px) {
+
+  #footer .copyright li {
+    display: block;
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: inherit;
+  }
+
+}
+
+/* Menu */
+
+menu {
+  -moz-transition: -moz-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+  -webkit-transition: -webkit-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+  -ms-transition: -ms-transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+  transition: transform 0.35s ease, opacity 0.35s ease, visibility 0.35s;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  pointer-events: none;
+  background:black;
+  box-shadow: none;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3em 2em;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 10002;
+}
+
+  
